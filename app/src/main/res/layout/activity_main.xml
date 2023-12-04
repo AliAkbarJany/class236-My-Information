@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:layout_margin="25dp"
+                />
+            <EditText
+                android:id="@+id/editFather"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Father's Name"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                />
+            <EditText
+                android:id="@+id/editMother"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mother's Name"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                />
+            <EditText
+                android:id="@+id/editBirth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date Of Birth"
+                android:inputType="text"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                />
+            <EditText
+                android:id="@+id/editNID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NID Number"
+                android:inputType="number"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                />
+
+
+            <Button
+                android:id="@+id/buttonSavaData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Data"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="25dp"
+                />
+            <Button
+                android:id="@+id/buttonCheckNID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Your Information"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:backgroundTint="#F57F17"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
